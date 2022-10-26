@@ -54,10 +54,10 @@ public class Main {
         // Задача 4
         System.out.println("Задача 4");
         for (int i = 0; i < first.length; i++) {
-            if (i % 2 == 0) {
+            if (first[i] % 2 != 0) {
                 first[i] = first[i] + 1;
-                System.out.println(first[i]);
             }
+            System.out.println(first[i]);
         }
     }
 }
